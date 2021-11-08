@@ -13,10 +13,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.flixster.DetailActivity;
+import com.example.flixster.MainActivity;
 import com.example.flixster.R;
 
 import org.parceler.Parcels;
@@ -97,6 +99,8 @@ public MovieAdapter(Context context,List<Movie> movies){
                     context.startActivity(i);
                 }
             });
+
+
         }
     }
 }

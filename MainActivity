@@ -1,0 +1,8 @@
+<androidx.cardview.widget.CardView xmlns:android="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+
+ http://www.w3.org/2001/XMLSchema-instance
+ ">
+    <ImageView android:id="@+id/ivProfile" android:layout_height="160dp" android:layout_width="match_parent" android:scaleType="centerCrop"
+        android:transitionName="profile" />
+</androidx.cardview.widget.CardView>
